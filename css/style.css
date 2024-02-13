@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+	--color-textos:#838383;
+	--color-primario:#1379e7;
+	--color-titulos:#1a1a1a;
+	--fondo-footer:#efefef;
+	--color-footer:#6d6d6d;
+}
+body{
+	font-size: 15px;
+	color: var(--color-textos);
+	font-weight: 400;
+	line-height: 1.7;
+	font-family: 'poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+header{
+	background-color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+footer{
+	text-align: center;
+	padding: 20px 0;
+	color: var(--color-footer);
+}
+footer #footer-sponsors{
+	color: #fff;
+}
+
+.section{
+	padding: 8% 0;
+}
+.btn-primary{
+	background-color: var(--color-primario);
+	border: none;
+	padding: 10px 20px !important;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.titulo{
+	font-size: 44px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: var(--color-titulos);
+	font-style: normal;
+	margin-bottom: 20px;
+}
+#hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+}
+h3{
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 700;
+	color: var(--color-titulos);
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: 300;
+	color: var(--color-primario)
+}
+
+
+#hero .img-fluid {
+  max-width: 150%; 
+  height: auto; 
+}
+
+#team {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 50px 0;
+}
+
+
+#team .section-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+#team .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#team .col-lg-3 {
+  margin-bottom: 30px; /* Spacing between rows of team members on smaller screens */
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#team h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#team p {
+  font-size: 16px;
+  color: #666;
+}
+
+.section-title {
+	color: #f7f7f7;
+	font-size: 800px;
+}
+
+footer {
+  background: #f5f5f5;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #333;
+}
+
+#footer-sponsors h2 {
+  text-align: center;
+  margin-bottom: 30px;
+	color: #000000;
+	font-size: 13px;
+}
+
+#footer-sponsors h4{
+  text-align: center;
+  margin-bottom: 30px;
+	color: var(--color-footer);
+	font-size: 13px;
+	font-weight: 500;
+}
+
+#footer-sponsors .row {
+  justify-content: center;
+  text-align: center;
+}
+
+#footer-sponsors .col-lg-2,
+#footer-sponsors .col-sm-4,
+#footer-sponsors .col-6 {
+  margin-bottom: 20px;
+}
+
+#footer-sponsors .img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#footer-sponsors .offset-1 {
+  margin-left: 8.333333%;
+}
+
+#copyright {
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+#copyright p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
